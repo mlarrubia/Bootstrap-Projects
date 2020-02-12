@@ -2,28 +2,28 @@ $primary: #3292a6;
 $primary-overlay: rgba(50, 146, 166, 0.8);
 
 
-body{
+body {
     margin-top: 105px;
 }
 
-.navbar{
+.navbar {
     box-shadow: 2px 2px 5px $primary;
     opacity: 0.9;
     background-color: #fff;
 
-    .nav-item{
+    .nav-item {
         font-size: 1.4rem;
         padding-right: 1.4rem;
     }
 
 }
 
-#showcase{
+#showcase {
     position: relative;
     background: url(../img//mountains.jpg);
     min-height: 600px;
 
-    .primary-overlay{
+    .primary-overlay {
         background: $primary-overlay;
         position: absolute;
         top: 0;
@@ -33,3 +33,36 @@ body{
     }
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Media Queries
+
+@media(max-width:768px) {
+    #showcase {
+        min-height: 500px;
+
+        h1 {
+            font-size: 4rem;
+        }
+    }
+
+    .mb-resp {
+        margin-bottom: 1rem;
+    }
+}
